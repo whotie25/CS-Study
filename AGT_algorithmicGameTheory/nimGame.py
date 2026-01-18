@@ -1,4 +1,4 @@
-def isNimSumZero(lst): # nim sum 변환
+def isNimSumZero(lst): # return Nim-sum
     cnt = len(lst)
     res = lst[0]
     for i in range(1, cnt):
@@ -9,7 +9,7 @@ def isNimSumZero(lst): # nim sum 변환
     else:
         return False
     
-def isSumZero(lst): # sum 반환
+def isSumZero(lst): # return Sum
     cnt = len(lst)
     sum = 0
     for i in range(0, cnt):
